@@ -1,0 +1,73 @@
+<div class="contenedorgra">
+  <div class="containerbuton">
+  </div>
+
+  <div data-aos="fade-left" data-aos-duration="1200" data-aos-once="true" class="grid gridF">
+
+    <div class="card" style="font-size:xx-large; ">
+      <table>
+        <tr>
+          <td>
+            <ul>
+              <li>
+                <strong>CO2:</strong>{{ppm_co2}}
+              </li>
+              <li>
+                <strong>CO:</strong>{{ppm_co}}
+              </li>
+              <li>
+                <strong>Alcohol:</strong>{{ppm_alcohol}}
+              </li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>
+                <strong>NH4 (nitrogeno):</strong>{{ppm_NH4}}
+              </li>
+              <li>
+                <strong>Tolueno:</strong>{{ppm_tolueno}}
+              </li>
+              <li>
+                <strong>Acetona:</strong>{{ppm_acetone}}
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <div class="card-content">
+        <h3>calidad del aire (PPM)</h3>
+        <p>Concentración quimica de elementos en el aire</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <canvas id="Altura">{{chart}}</canvas>
+      <div class="card-content">
+        <h3>Calidad del aire</h3>
+        <p>indice de calidad del aire</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <canvas id="Temperatura">{{chart2}}</canvas>
+      <div class="card-content">
+        <h3>Temperatura</h3>
+        <p>Temperatura en grados Celcius</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <canvas id="PresionB">{{chart4}}</canvas>
+      <div class="card-content">
+        <h3>Humedad</h3>
+      </div>
+    </div>
+
+    <div>
+      <!-- INFO EXTRA O GRAFICAS EXTRAS -->
+    </div>
+
+  </div>
+</div>
